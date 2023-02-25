@@ -1,1 +1,0 @@
-# sukh-portfolio-react
