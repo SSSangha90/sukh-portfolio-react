@@ -1,13 +1,12 @@
 import React from "react";
 
 import AppContainer from "./App.styled";
-import Header from "./layout/header/Header";
+import LandingPage from "./pages/Landing";
 
 const HomePage: React.FC = () => {
   return (
     <AppContainer>
-      <Header />
-      <h1>Welcome</h1>
+      <LandingPage />
     </AppContainer>
   );
 };
