@@ -18,14 +18,14 @@ const Container = styled.header`
 
   .btn-ghost:link,
   .btn-ghost:visited {
-    border: 4px solid #6f1e51;
-    color: #6f1e51;
+    border: 4px solid #0704c9;
+    color: #0704c9;
     background-color: rgba(255, 255, 255, 0.6);
   }
 
   .btn:hover,
   .btn:active {
-    background-color: rgba(71, 19, 52, 0.6);
+    background-color: #3c91fa;
     color: #fff;
   }
 
