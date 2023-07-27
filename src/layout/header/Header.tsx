@@ -26,7 +26,7 @@ const Header: React.FC = () => {
         <a
           className="btn btn-ghost js--scroll-to-projects"
           onClick={navigateToProjects}
-          href="#"
+          href=""
         >
           View Projects
         </a>
