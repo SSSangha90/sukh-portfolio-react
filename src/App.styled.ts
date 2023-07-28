@@ -6,7 +6,7 @@ const AppContainer = styled.body`
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #dcdcdc;
-  color: #6f1e51;
+  color: #fff;
   font-family: "Merriweather", serif, "Arial";
   font-weight: 400;
   font-size: 20px;
