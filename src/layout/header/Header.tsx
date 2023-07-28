@@ -20,6 +20,7 @@ const Header: React.FC = () => {
     url(${background})`,
       }}
     >
+      <Navigation />
       <div className="hero-text-box">
         <h1>Sukh Sangha</h1>
         <h1 className="web-dev">Web Developer</h1>
@@ -31,7 +32,6 @@ const Header: React.FC = () => {
           View Projects
         </a>
       </div>
-      <Navigation />
     </Container>
   );
 };
