@@ -5,12 +5,12 @@ export const Navbar = styled.nav`
     list-style: none;
     margin-top: 3rem;
     position: absolute;
-    right: 2rem;
+    right: 3rem;
   }
 
   .main-nav li {
     display: inline-block;
-    margin-left: 2.5rem;
+    margin-left: 3.5rem;
   }
 
   .main-nav li a:link,
