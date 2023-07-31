@@ -62,10 +62,7 @@ const ProjectsList: React.FC = () => {
           </p>
         </div>
         <div className="project-btns">
-          <Link to="/projects/budgetapp">Open</Link>
-          <Link to="https://github.com/SSSangha90/BudgetApp" target="_blank">
-            Github
-          </Link>
+          <Link to="/projects/investment-calculator">Open</Link>
         </div>
       </div>
     </Container>
