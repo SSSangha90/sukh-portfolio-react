@@ -41,30 +41,6 @@ const ProjectsList: React.FC = () => {
           </Link>
         </div>
       </div>
-
-      <div>
-        <img
-          alt=""
-          style={{
-            backgroundImage: `url(${image})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-          }}
-        />
-        <div className="description">
-          <h4>Budget App</h4>
-          <p>
-            Vanilla Javascript ES6 budget application - migrated to ReactJS.
-            Calculations are made based on input, where you can view total
-            income/expense, as well as the percentage of expenses compared to
-            income. HTML5 and CSS3 used also.
-          </p>
-        </div>
-        <div className="project-btns">
-          <Link to="/projects/investment-calculator">Open</Link>
-        </div>
-      </div>
     </Container>
   );
 };
