@@ -14,7 +14,7 @@ export const Container = styled.div`
 
   > div {
     width: 24rem;
-    height: 28rem;
+    height: 30rem;
     background-color: #000;
     border-radius: 5px;
 
@@ -28,6 +28,25 @@ export const Container = styled.div`
       p {
         font-size: 0.8em;
         padding-top: 1rem;
+      }
+    }
+
+    .project-btns {
+      padding-top: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+
+      a {
+        padding: 8px 8px;
+        text-decoration: none;
+        border-radius: 30px;
+        border: 2px solid #0704c9;
+        color: #0704c9;
       }
     }
   }
