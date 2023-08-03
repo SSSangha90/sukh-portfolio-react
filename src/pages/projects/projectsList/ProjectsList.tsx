@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { Container } from "./ProjectsList.style";
-import image from "../images/sportsquiz.png";
+import sports from "../images/sportsquiz.png";
+import sunnys from "../images/sunnys.png";
 
 const ProjectsList: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const ProjectsList: React.FC = () => {
         <img
           alt=""
           style={{
-            backgroundImage: `url(${image})`,
+            backgroundImage: `url(${sports})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
@@ -35,6 +36,39 @@ const ProjectsList: React.FC = () => {
           </Link>
           <Link
             to="https://github.com/SSSangha90/sports-react-quiz"
+            target="_blank"
+          >
+            Github
+          </Link>
+        </div>
+      </div>
+      <div>
+        <img
+          alt=""
+          style={{
+            backgroundImage: `url(${sunnys})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+        />
+        <div className="description">
+          <h4>Sunnys electrics</h4>
+          <p>
+            Sunny's Electrics is a dynamic, hand-coded, fully-responsive website
+            across desktop, tablet and mobile. Skills used: HTML5, CSS3,
+            JavaScript, JQuery.
+          </p>
+        </div>
+        <div className="project-btns">
+          <Link
+            to="https://sssangha90.github.io/sunnys-electrics/"
+            target="_blank"
+          >
+            Open
+          </Link>
+          <Link
+            to="https://github.com/SSSangha90/sunnys-electrics"
             target="_blank"
           >
             Github
