@@ -6,10 +6,9 @@ export const Container = styled.div`
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   position: relative;
   top: 10rem;
-  margin: 0 5rem;
   gap: 3rem;
 
   > div {
