@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Column = styled.div`
   position: fixed;
   left: 0;
-  width: 15rem;
+  width: 16rem;
   background-color: #dae8e7;
   display: flex;
   flex-direction: column;
@@ -16,5 +16,19 @@ export const Column = styled.div`
   img {
     width: 5.5rem;
     height: 5rem;
+  }
+`;
+
+export const Wrapper = styled.div`
+  position: absolute;
+  top: 11rem;
+  width: 25rem;
+  left: 20rem;
+  border: 1px solid #dae8e7;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  p:first-child {
+    margin-bottom: 2rem;
   }
 `;

@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../../layout/header/Header.style";
 import background from "./images/whistler.jpg";
 import SkillsColumn from "./SkillsColumn";
+import Blurb from "./Blurb";
 
 const AboutPage: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const AboutPage: React.FC = () => {
       }}
     >
       <SkillsColumn />
+      <Blurb />
     </Container>
   );
 };
