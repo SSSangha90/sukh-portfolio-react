@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "../../layout/header/Header.style";
-import Navigation from "../../layout/navigation/Navigation";
 import background from "./images/vatican.jpg";
 import ProjectsList from "./projectsList/ProjectsList";
 
@@ -12,7 +11,6 @@ const ProjectsPage: React.FC = () => {
     url(${background})`,
       }}
     >
-      <Navigation />
       <ProjectsList />
     </Container>
   );

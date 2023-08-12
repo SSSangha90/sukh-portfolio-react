@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../../layout/header/Header.style";
-import Navigation from "../../layout/navigation/Navigation";
 import background from "./images/whistler.jpg";
+import SkillsColumn from "./SkillsColumn";
 
 const AboutPage: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const AboutPage: React.FC = () => {
     url(${background})`,
       }}
     >
-      <Navigation />
+      <SkillsColumn />
     </Container>
   );
 };
