@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../../layout/header/Header.style";
-import background from "./images/vatican.jpg";
+import background from "./images/whistler.jpg";
 import ProjectsList from "./projectsList/ProjectsList";
 
 const ProjectsPage: React.FC = () => {
