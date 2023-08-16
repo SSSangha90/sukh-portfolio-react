@@ -15,7 +15,7 @@ export const Container = styled.div`
     width: 24rem;
     height: 30rem;
     background-color: #000;
-    border-radius: 5px;
+    position: relative;
 
     img {
       width: 100%;
@@ -38,14 +38,42 @@ export const Container = styled.div`
       align-content: center;
       align-items: center;
       justify-content: center;
-      gap: 2rem;
+      gap: 1rem;
+      color: #0704c9;
+      position: absolute;
+      bottom: 0.5rem;
+      left: 8rem;
 
       a {
-        padding: 8px 8px;
+        color: #fff !important;
+        border: 1px solid #0704c9;
+        border-radius: 0.25rem;
+        padding: 0.125rem;
+        font-size: 0.875rem;
+      }
+
+      a:link,
+      a:visited {
+        display: inline-block;
+        padding: 10px 10px;
+        font-weight: 600;
         text-decoration: none;
-        border-radius: 30px;
-        border: 2px solid #0704c9;
+        border-radius: 200px;
+        -webkit-transition: background-color 0.2s, color 0.2s;
+        transition: background-color 0.2s, color 0.2s;
+      }
+
+      .btn-ghost:link,
+      .btn-ghost:visited {
+        border: 4px solid #0704c9;
         color: #0704c9;
+        background-color: rgba(255, 255, 255, 0.6);
+      }
+
+      a:hover,
+      a:active {
+        background-color: #3c91fa;
+        color: #fff;
       }
     }
   }

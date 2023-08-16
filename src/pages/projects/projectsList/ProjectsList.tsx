@@ -22,10 +22,9 @@ const ProjectsList: React.FC = () => {
         <div className="description">
           <h4>Sports Quiz</h4>
           <p>
-            This is a sports quiz app, using ReactJS and Typescript. Questions
-            have been fetched from an API. The project has been built and
-            deployed using AWS on the command line, updating files in an AWS S3
-            Bucket.
+            Sports quiz app, using ReactJS and Typescript. Questions have been
+            fetched from an API. The project has been built and deployed using
+            AWS to an AWS S3 Bucket.
           </p>
         </div>
         <div className="project-btns">
