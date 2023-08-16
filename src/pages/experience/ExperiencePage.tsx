@@ -8,13 +8,8 @@ import { Column } from "../about/AboutPage.style";
 import justit from "./images/justit.png";
 import tata from "./images/tata.jpg";
 import push from "./images/push.png";
-import download from "./images/download.png";
 
 const AboutPage: React.FC = () => {
-  const downloadCV = () => {
-    console.log("download CV");
-  };
-
   return (
     <Container
       style={{

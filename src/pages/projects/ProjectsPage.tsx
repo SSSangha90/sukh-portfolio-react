@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../../layout/header/Header.style";
+import { Container } from "../../layout/header/Header.style";
 import background from "./images/whistler.jpg";
 import ProjectsList from "./projectsList/ProjectsList";
 

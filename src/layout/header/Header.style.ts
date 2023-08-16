@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container = styled.header`
+export const Container = styled.header`
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -20,7 +20,7 @@ const Container = styled.header`
   .btn-ghost:visited {
     border: 4px solid #3c91fa;
     color: #3c91fa;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
   }
 
   .btn:hover,
@@ -47,4 +47,15 @@ const Container = styled.header`
   }
 `;
 
-export default Container;
+export const Social = styled.div`
+  img {
+    width: 2rem;
+    height: auto;
+    margin: 0 0 0.5rem 0.25rem;
+    cursor: pointer;
+  }
+
+  img:first-child {
+    margin-right: 1rem;
+  }
+`;
