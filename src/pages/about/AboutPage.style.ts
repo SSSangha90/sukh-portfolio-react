@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Column = styled.div`
   position: fixed;
+  z-index: 111;
   left: 0;
   width: 16rem;
   background-color: #dae8e7;
@@ -27,6 +28,7 @@ export const Wrapper = styled.div`
   border: 1px solid #dae8e7;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 1rem;
 
   p:first-child {
     margin-bottom: 2rem;
