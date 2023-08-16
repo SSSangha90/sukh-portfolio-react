@@ -6,7 +6,6 @@ import LandingPage from "./pages/Landing";
 import ProjectsPage from "./pages/projects/ProjectsPage";
 import AboutPage from "./pages/about/AboutPage";
 import Navigation from "./layout/navigation/Navigation";
-import ExperiencePage from "./pages/experience/ExperiencePage";
 
 const HomePage: React.FC = () => {
   return (
@@ -16,7 +15,6 @@ const HomePage: React.FC = () => {
         <Route path="/*" element={<LandingPage />} />
         <Route path="/about/*" element={<AboutPage />} />
         <Route path="/projects/*" element={<ProjectsPage />} />
-        <Route path="/experience/*" element={<ExperiencePage />} />
       </Routes>
     </AppContainer>
   );

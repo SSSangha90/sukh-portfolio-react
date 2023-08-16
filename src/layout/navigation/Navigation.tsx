@@ -17,9 +17,6 @@ const Navigation: React.FC = () => {
           <li>
             <Link to="/projects">Projects</Link>
           </li>
-          <li>
-            <Link to="/experience">Experience</Link>
-          </li>
         </ul>
       </div>
     </Navbar>
