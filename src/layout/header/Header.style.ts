@@ -18,8 +18,8 @@ const Container = styled.header`
 
   .btn-ghost:link,
   .btn-ghost:visited {
-    border: 4px solid #0704c9;
-    color: #0704c9;
+    border: 4px solid #3c91fa;
+    color: #3c91fa;
     background-color: rgba(255, 255, 255, 0.6);
   }
 

@@ -14,7 +14,7 @@ export const Container = styled.div`
   > div {
     width: 24rem;
     height: 30rem;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.6);
     position: relative;
 
     img {
@@ -39,14 +39,14 @@ export const Container = styled.div`
       align-items: center;
       justify-content: center;
       gap: 1rem;
-      color: #0704c9;
+      color: #3c91fa;
       position: absolute;
       bottom: 0.5rem;
       left: 8rem;
 
       a {
         color: #fff !important;
-        border: 1px solid #0704c9;
+        border: 1px solid #3c91fa;
         border-radius: 0.25rem;
         padding: 0.125rem;
         font-size: 0.875rem;
@@ -65,8 +65,8 @@ export const Container = styled.div`
 
       .btn-ghost:link,
       .btn-ghost:visited {
-        border: 4px solid #0704c9;
-        color: #0704c9;
+        border: 4px solid #3c91fa;
+        color: #3c91fa;
         background-color: rgba(255, 255, 255, 0.6);
       }
 
