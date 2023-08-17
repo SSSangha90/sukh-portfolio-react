@@ -5,8 +5,8 @@ import { Navbar } from "./Navigation.style";
 
 const Navigation: React.FC = () => {
   return (
-    <Navbar className="crossfade">
-      <div className="row">
+    <Navbar>
+      <div>
         <ul className="main-nav">
           <li>
             <Link to="/">Home</Link>

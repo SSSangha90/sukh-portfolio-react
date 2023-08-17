@@ -1,7 +1,6 @@
 import React, { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
-import Navigation from "../navigation/Navigation";
 import { Container, Social } from "./Header.style";
 import background from "./image/whistler.jpg";
 import github from "./image/github.png";
@@ -22,7 +21,6 @@ const Header: React.FC = () => {
     url(${background})`,
       }}
     >
-      <Navigation />
       <div className="hero-text-box">
         <h1>Sukh Sangha</h1>
         <h1 className="web-dev">Web Developer</h1>

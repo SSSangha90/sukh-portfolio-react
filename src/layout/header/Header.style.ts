@@ -45,6 +45,34 @@ export const Container = styled.header`
     transform: translate(-50%, -50%);
     z-index: 1;
   }
+
+  @media only screen and (max-width: 1024px) {
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: -5rem;
+
+    .hero-text-box {
+      width: 100%;
+      padding: 0 5%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: -5rem;
+
+    .hero-text-box {
+      width: 100%;
+      padding: 0 5%;
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
 `;
 
 export const Social = styled.div`

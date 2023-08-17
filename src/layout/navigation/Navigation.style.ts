@@ -19,4 +19,16 @@ export const Navbar = styled.nav`
     text-decoration: none;
     font-size: 110%;
   }
+
+  @media only screen and (max-width: 1024px) {
+    .main-nav li {
+      margin-left: 30px;
+    }
+    h3 {
+      margin-right: 50px;
+    }
+    h3:after {
+      width: 600px;
+    }
+  }
 `;
