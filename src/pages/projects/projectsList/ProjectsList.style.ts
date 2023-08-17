@@ -10,6 +10,8 @@ export const Container = styled.div`
   position: relative;
   top: 10rem;
   gap: 3rem;
+  position: absolute;
+  width: 100%;
 
   > div {
     width: 24rem;
@@ -76,5 +78,9 @@ export const Container = styled.div`
         color: #fff;
       }
     }
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 0 5%;
   }
 `;
