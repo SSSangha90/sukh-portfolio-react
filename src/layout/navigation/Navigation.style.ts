@@ -45,7 +45,7 @@ export const Navbar = styled.nav`
 `;
 
 export const MobileNav = styled.div`
-  height: 28vh;
+  height: 30vh;
   position: absolute;
   z-index: 222;
   background-color: #f4f4f4;
@@ -70,7 +70,7 @@ export const MobileNav = styled.div`
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
-    gap: 3rem;
+    gap: 2rem;
     padding-left: 1rem;
   }
 
@@ -80,7 +80,7 @@ export const MobileNav = styled.div`
 
   .mobile-nav li a:link,
   .mobile-nav li a:visited {
-    color: #000;
+    color: #3c91fa;
     text-decoration: none;
     font-size: 110%;
   }

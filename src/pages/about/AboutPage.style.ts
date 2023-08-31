@@ -28,6 +28,11 @@ export const Column = styled.div`
     position: relative;
     width: auto;
     margin-top: 11rem;
+
+    img {
+      width: 4.5rem;
+      height: 4rem;
+    }
   }
 `;
 
@@ -51,5 +56,6 @@ export const Wrapper = styled.div`
     width: 90%;
     margin: 2rem 0;
     left: 5%;
+    font-size: 1rem;
   }
 `;

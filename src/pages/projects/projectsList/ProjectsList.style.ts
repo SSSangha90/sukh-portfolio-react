@@ -82,5 +82,9 @@ export const Container = styled.div`
 
   @media only screen and (max-width: 480px) {
     padding: 0 5%;
+
+    .project-btns {
+      left: 1rem !important;
+    }
   }
 `;
