@@ -61,7 +61,7 @@ export const Container = styled.header`
     background-size: cover;
     background-position: center;
     margin-top: -5rem;
-    height: 120vh;
+    height: 112vh;
 
     .hero-text-box {
       width: 100%;

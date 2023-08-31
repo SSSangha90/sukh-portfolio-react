@@ -45,7 +45,7 @@ export const Navbar = styled.nav`
 `;
 
 export const MobileNav = styled.div`
-  height: 30vh;
+  height: 25vh;
   position: absolute;
   z-index: 222;
   background-color: #f4f4f4;

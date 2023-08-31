@@ -40,6 +40,6 @@ export const Container = styled.header`
     background-size: cover;
     background-position: center;
     margin-top: -5rem;
-    height: 280vh;
+    height: 268vh;
   }
 `;
