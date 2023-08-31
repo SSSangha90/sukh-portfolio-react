@@ -47,7 +47,6 @@ export const Container = styled.header`
   }
 
   @media only screen and (max-width: 1024px) {
-    height: 120vh;
     background-size: cover;
     background-position: center;
     margin-top: -5rem;
@@ -59,10 +58,10 @@ export const Container = styled.header`
   }
 
   @media only screen and (max-width: 480px) {
-    height: 110vh;
     background-size: cover;
     background-position: center;
     margin-top: -5rem;
+    height: 120vh;
 
     .hero-text-box {
       width: 100%;

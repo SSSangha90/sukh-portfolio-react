@@ -11,12 +11,23 @@ export const Column = styled.div`
   flex-wrap: nowrap;
   align-items: center;
   gap: 1.5rem;
-  height: 100vh;
+  height: auto;
   padding: 1rem 0;
+  margin: 0;
 
   img {
     width: 5.5rem;
     height: 5rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    margin-top: 11rem;
   }
 `;
 
@@ -32,5 +43,13 @@ export const Wrapper = styled.div`
 
   p:first-child {
     margin-bottom: 2rem;
+  }
+
+  @media only screen and (max-width: 480px) {
+    position: relative;
+    top: 9rem;
+    width: 90%;
+    margin: 2rem 0;
+    left: 5%;
   }
 `;

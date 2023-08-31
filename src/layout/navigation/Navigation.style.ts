@@ -48,8 +48,7 @@ export const MobileNav = styled.div`
   height: 28vh;
   position: absolute;
   z-index: 222;
-  background-color: white;
-  opacity: 0.8;
+  background-color: #f4f4f4;
   width: 100%;
 
   > div {
@@ -70,8 +69,9 @@ export const MobileNav = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: flex-start;
     gap: 3rem;
+    padding-left: 1rem;
   }
 
   .mobile-nav li {
