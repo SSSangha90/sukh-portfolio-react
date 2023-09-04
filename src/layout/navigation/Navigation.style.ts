@@ -17,6 +17,10 @@ export const Navbar = styled.nav`
     margin-top: 3rem;
     position: absolute;
     right: 3rem;
+
+    li:hover {
+      border-bottom: 2px solid #3c91fa;
+    }
   }
 
   .main-nav li {
@@ -45,11 +49,13 @@ export const Navbar = styled.nav`
 `;
 
 export const MobileNav = styled.div`
-  height: 25vh;
+  height: auto;
   position: absolute;
   z-index: 222;
   background-color: #f4f4f4;
   width: 100%;
+  opacity: 0.7;
+  padding-bottom: 1rem;
 
   > div {
     margin-top: 1rem;

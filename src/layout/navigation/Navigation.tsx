@@ -22,7 +22,7 @@ const Navigation: React.FC = () => {
   const handleMenu = useCallback(() => setMenuOpen(!menuOpen), [menuOpen]);
 
   const navBar = useMemo(() => {
-    if (windowDimensions.width > 480) {
+    if (windowDimensions.width > 540) {
       return (
         <Navbar>
           <div>
@@ -45,7 +45,7 @@ const Navigation: React.FC = () => {
             <img src={close} alt="menu" onClick={handleMenu} />
             <div>
               <ul className="mobile-nav">
-                <NavLinks />
+                <NavLinks mobileLinkClick={handleMenu} />
               </ul>
             </div>
           </MobileNav>
