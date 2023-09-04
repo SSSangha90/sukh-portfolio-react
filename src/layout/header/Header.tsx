@@ -1,5 +1,5 @@
-import React, { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
 import { Container, Social } from "./Header.style";
 import background from "./image/whistler.jpg";
@@ -7,13 +7,6 @@ import github from "./image/github.png";
 import linkedin from "./image/linkedin.png";
 
 const Header: React.FC = () => {
-  const navigate = useNavigate();
-
-  const navigateToProjects = useCallback(
-    () => navigate("/projects"),
-    [navigate]
-  );
-
   return (
     <Container
       style={{
@@ -26,20 +19,16 @@ const Header: React.FC = () => {
         <h1>Sukh Sangha</h1>
         <h1 className="web-dev">Web Developer</h1>
         <Social>
-          <a href="https://github.com/SSSangha90" target="_blank">
+          <Link to="https://github.com/SSSangha90" target="_blank">
             <img src={github} alt="Github" />
-          </a>
-          <a href="https://www.linkedin.com/in/sukh-sangha/" target="_blank">
+          </Link>
+          <Link to="https://www.linkedin.com/in/sukh-sangha/" target="_blank">
             <img src={linkedin} alt="LinkedIn" />
-          </a>
+          </Link>
         </Social>
-        <a
-          className="btn btn-ghost js--scroll-to-projects"
-          onClick={navigateToProjects}
-          href=""
-        >
+        <Link className="btn btn-ghost js--scroll-to-projects" to="/projects">
           View Projects
-        </a>
+        </Link>
       </div>
     </Container>
   );

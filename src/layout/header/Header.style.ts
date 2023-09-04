@@ -8,11 +8,10 @@ export const Container = styled.header`
   .btn:link,
   .btn:visited {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 0.625rem 0.625rem;
     font-weight: 600;
     text-decoration: none;
-    border-radius: 200px;
-    -webkit-transition: background-color 0.2s, color 0.2s;
+    border-radius: 12.5rem;
     transition: background-color 0.2s, color 0.2s;
   }
 
@@ -46,14 +45,36 @@ export const Container = styled.header`
     z-index: 1;
   }
 
+  @media only screen and (max-width: 1180px) {
+    .hero-text-box {
+      width: 100%;
+      padding: 0 10%;
+    }
+  }
+
   @media only screen and (max-width: 1024px) {
-    background-size: cover;
-    background-position: center;
     margin-top: -5rem;
+    height: 110vh;
 
     .hero-text-box {
       width: 100%;
       padding: 0 5%;
+    }
+  }
+
+  @media only screen and (max-width: 915px) {
+    height: 120vh;
+
+    .hero-text-box {
+      width: 100%;
+      padding: 10% 10% 0;
+      font-size: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .hero-text-box {
+      font-size: 80%;
     }
   }
 
