@@ -1,12 +1,12 @@
 import React from "react";
-import { Wrapper } from "./AboutPage.style";
+import { About } from "./AboutPage.style";
 
 const Blurb: React.FC = () => {
   return (
-    <Wrapper>
+    <About>
       <p>
-        I am an enthusiastic, driven and ambitious Software Developer with 5
-        years' valuable commercial experience. Most recently I was a Senior UX
+        I am a focused and driven Full Stack JavaScript Software Developer with
+        5 years' commercial experience. Most recently I was a Senior UX
         Developer at Push Live working with ReactJS, Styled Components,
         React-Storybook, Redux Toolkit, TypeScript and NodeJS on AWS Lambda.
       </p>
@@ -17,7 +17,7 @@ const Blurb: React.FC = () => {
         self-funded development bootcamp, focusing on HTML, CSS, JavaScript, C#
         and SQL.
       </p>
-    </Wrapper>
+    </About>
   );
 };
 

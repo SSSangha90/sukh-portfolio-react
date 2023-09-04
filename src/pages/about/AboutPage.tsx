@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../../layout/header/Header.style";
+import { Container } from "./AboutPage.style";
 import background from "./images/whistler.jpg";
 import SkillsColumn from "./SkillsColumn";
 import Blurb from "./Blurb";

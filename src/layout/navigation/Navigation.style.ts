@@ -54,7 +54,7 @@ export const MobileNav = styled.div`
   z-index: 222;
   background-color: #f4f4f4;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.8;
   padding-bottom: 1rem;
 
   > div {

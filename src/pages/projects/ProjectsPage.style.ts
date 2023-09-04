@@ -32,7 +32,6 @@ export const Container = styled.header`
   @media only screen and (max-width: 1024px) {
     background-size: cover;
     background-position: center;
-    margin-top: -5rem;
     height: 200vh;
   }
 
