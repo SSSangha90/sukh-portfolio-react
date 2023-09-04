@@ -37,13 +37,13 @@ export const Navbar = styled.nav`
 
   @media only screen and (max-width: 1024px) {
     .main-nav li {
-      margin-left: 30px;
+      margin-left: 1.875rem;
     }
     h3 {
-      margin-right: 50px;
+      margin-right: 3.75rem;
     }
     h3:after {
-      width: 600px;
+      width: 37.5rem;
     }
   }
 `;
