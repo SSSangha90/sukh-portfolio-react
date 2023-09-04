@@ -18,10 +18,12 @@ export const Container = styled.div`
     height: 30rem;
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
+    border-radius: 1rem;
 
     img {
       width: 100%;
       height: 60%;
+      border-radius: 1rem;
     }
 
     .description {
@@ -48,9 +50,9 @@ export const Container = styled.div`
 
       a {
         color: #fff !important;
-        border: 1px solid #3c91fa;
-        border-radius: 0.25rem;
-        padding: 0.125rem;
+        border: 2px solid #3c91fa;
+        border-radius: 0.5rem !important;
+        padding: 0.5rem !important;
         font-size: 0.875rem;
       }
 

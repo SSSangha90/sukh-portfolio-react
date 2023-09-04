@@ -29,16 +29,23 @@ export const Container = styled.header`
     color: #fff;
   }
 
+  @media only screen and (max-width: 1180px) {
+    height: 150vh;
+  }
+
   @media only screen and (max-width: 1024px) {
-    background-size: cover;
-    background-position: center;
     height: 200vh;
   }
 
-  @media only screen and (max-width: 480px) {
-    background-size: cover;
-    background-position: center;
-    margin-top: -5rem;
-    height: 268vh;
+  @media only screen and (max-width: 920px) {
+    height: 100vh;
+  }
+
+  @media only screen and (max-width: 820px) {
+    height: 170vh;
+  }
+
+  @media only screen and (max-width: 540px) {
+    height: 260vh;
   }
 `;
