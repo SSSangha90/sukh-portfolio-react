@@ -6,10 +6,10 @@ export const Container = styled.header`
   background-position: center;
 
   @media screen and (max-width: 1024px) {
-    height: 110vh;
+    height: 150vh;
   }
 
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 750px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +53,7 @@ export const Column = styled.div`
     }
   }
 
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 750px) {
     position: relative;
     width: 100vw;
     background: none;
@@ -101,7 +101,7 @@ export const About = styled.div`
     margin-bottom: 2rem;
   }
 
-  @media screen and (max-width: 540px) {
+  @media screen and (max-width: 750px) {
     position: relative;
     top: 0;
     width: auto;
