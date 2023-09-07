@@ -93,7 +93,7 @@ const ProjectsList: React.FC = () => {
           <p>
             Javascript ES6 budget application. Calculations are made based on
             input, where you can view total income/expense, as well as the
-            percentage of expenses compared to income. HTML5 and CSS3 used also.
+            percentage of expenses compared to income.
           </p>
         </div>
         <div className="project-btns">
