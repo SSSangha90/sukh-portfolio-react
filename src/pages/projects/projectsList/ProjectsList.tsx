@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Container } from "./ProjectsList.style";
-import ProjectContainer from "../components/projectBox";
+import ProjectContainer from "../components/ProjectBox";
 
 // images
 import sports from "../images/sportsquiz.png";
