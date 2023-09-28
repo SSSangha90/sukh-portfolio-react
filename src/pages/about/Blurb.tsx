@@ -11,11 +11,12 @@ const Blurb: React.FC = () => {
         React-Storybook, Redux Toolkit, TypeScript and NodeJS on AWS Lambda.
       </p>
       <p>
-        My passion for software development came about whilst working as
-        recruitment consultant within the field. This sparked my interest and I
-        began coding in my spare time. Thereafter, I undertook an on-site,
-        self-funded development bootcamp, focusing on HTML, CSS, JavaScript, C#
-        and SQL.
+        I am largely a self-taught developer and undertook an intensive on-site
+        full stack development bootcamp in 2018, covering HTML5, CSS3,
+        JavaScript, C# and SQL. I have commercial experience working wth NoSQL
+        databases such as DynamoDB and MongoDB. I am adaptable at learning and
+        using new technologies - I am currently buildng a side project using
+        NextJS and Tailwind CSS for example.
       </p>
     </About>
   );
