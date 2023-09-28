@@ -14,9 +14,8 @@ const Blurb: React.FC = () => {
         I am largely a self-taught developer and undertook an intensive on-site
         full stack development bootcamp in 2018, covering HTML5, CSS3,
         JavaScript, C# and SQL. I have commercial experience working wth NoSQL
-        databases such as DynamoDB and MongoDB. I am adaptable at learning and
-        using new technologies - I am currently buildng a side project using
-        NextJS and Tailwind CSS for example.
+        databases such as DynamoDB and MongoDB. Furthermore I have worked with a
+        range of third-party APIs such as Shopify and Social Media APIs.
       </p>
     </About>
   );
