@@ -12,6 +12,8 @@ export const MobileInitial = styled.div`
 `;
 
 export const Navbar = styled.nav`
+  position: sticky;
+  top: 0rem;
   .main-nav {
     list-style: none;
     margin-top: 3rem;

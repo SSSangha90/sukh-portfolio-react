@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  height: 100vh;
+  height: 140vh;
   background-size: cover;
   background-position: center;
 
@@ -34,7 +34,7 @@ export const Container = styled.header`
   }
 
   @media only screen and (max-width: 1024px) {
-    height: 200vh;
+    height: 180vh;
   }
 
   @media only screen and (max-width: 920px) {
@@ -42,10 +42,14 @@ export const Container = styled.header`
   }
 
   @media only screen and (max-width: 820px) {
-    height: 170vh;
+    height: 120vh;
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: 220vh;
   }
 
   @media only screen and (max-width: 540px) {
-    height: 260vh;
+    height: 320vh;
   }
 `;

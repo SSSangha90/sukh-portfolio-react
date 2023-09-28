@@ -1,10 +1,13 @@
 import React from "react";
 
 import { Container } from "./ProjectsList.style";
+import ProjectContainer from "../components/projectBox";
+
+// images
 import sports from "../images/sportsquiz.png";
 import sunnys from "../images/sunnys.png";
 import budgetapp from "../images/budgetapp.png";
-import ProjectContainer from "../components/ProjectBox";
+import artwork from "../images/artwork.png";
 
 const ProjectsList: React.FC = () => {
   return (
@@ -17,6 +20,14 @@ const ProjectsList: React.FC = () => {
         AWS to an AWS S3 Bucket."
         site="http://sports-react-quiz.s3-website.eu-west-2.amazonaws.com/"
         github="https://github.com/SSSangha90/sports-react-quiz"
+      />
+      <ProjectContainer
+        image={artwork}
+        title="Chicago Art"
+        description="A React and Redux project pulling in data from The Art Institute of Chicago's API using fetch.
+        Furthermore, I have used styled-components for styling and React-router for navigation across the App."
+        site="https://chicago-artwork-ruby.vercel.app/"
+        github="https://github.com/SSSangha90/art-collection"
       />
       <ProjectContainer
         image={sunnys}
