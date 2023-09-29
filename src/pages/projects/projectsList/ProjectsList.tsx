@@ -8,6 +8,7 @@ import sports from "../images/sportsquiz.png";
 import sunnys from "../images/sunnys.png";
 import budgetapp from "../images/budgetapp.png";
 import artwork from "../images/artwork.png";
+import taskmanager from "../images/taskmaster.png";
 
 const ProjectsList: React.FC = () => {
   return (
@@ -37,6 +38,15 @@ const ProjectsList: React.FC = () => {
         JavaScript, JQuery."
         site="https://sssangha90.github.io/sunnys-electrics/"
         github="https://github.com/SSSangha90/sunnys-electrics"
+      />
+      <ProjectContainer
+        image={taskmanager}
+        title="Task Manager"
+        description="My first VueJS project with multiple features for a task management web app. 
+        Sidebar tasks can be filtered, main components contain forms with validation 
+        and the app is mobile/table responsive."
+        site="https://taskmaster-eta.vercel.app/"
+        github="https://github.com/SSSangha90/taskmaster"
       />
       <ProjectContainer
         image={budgetapp}

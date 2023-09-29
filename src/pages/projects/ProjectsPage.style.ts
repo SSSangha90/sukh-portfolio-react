@@ -30,11 +30,11 @@ export const Container = styled.header`
   }
 
   @media only screen and (max-width: 1180px) {
-    height: 150vh;
+    height: 220vh;
   }
 
   @media only screen and (max-width: 1024px) {
-    height: 180vh;
+    height: 230vh;
   }
 
   @media only screen and (max-width: 920px) {
@@ -42,14 +42,14 @@ export const Container = styled.header`
   }
 
   @media only screen and (max-width: 820px) {
-    height: 120vh;
+    height: 150vh;
   }
 
   @media only screen and (max-width: 768px) {
-    height: 220vh;
+    height: 270vh;
   }
 
   @media only screen and (max-width: 540px) {
-    height: 320vh;
+    height: 420vh;
   }
 `;
